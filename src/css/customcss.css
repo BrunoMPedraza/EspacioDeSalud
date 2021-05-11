@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  opacity: 1;
+
+  background-color: rgba(241, 242, 243, 255);
+  transition-duration: 0.7s;
+  transition-property: opacity;
+}
