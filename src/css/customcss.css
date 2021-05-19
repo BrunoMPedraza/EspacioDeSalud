@@ -20,6 +20,10 @@ body {
   margin: 0!important;
 }
 
+.jumbotron{
+  margin: 0!important;
+}
+
 .carousel-item {
   height: 65vh;
   width: 100vw;
@@ -32,11 +36,16 @@ body {
   right:5vw;
   max-height:45vh;
   overflow-y:scroll;
-  background-color:rgba(0, 0, 0, 0.4);
+  background-color:rgba(0, 0, 0, 0.5);
 }
-
+.carousel-indicators li { visibility: hidden; }
 .navbar-collapse{
   z-index:10;
+}
+
+.space{
+  width:100vw;
+  height:15vh;
 }
 
 .palette1{
