@@ -15,3 +15,26 @@ body {
   transition-duration: 0.7s;
   transition-property: opacity;
 }
+
+.navbar-collapse{
+  z-index:10;
+}
+
+.palette1{
+  background-color:#E9F5DB;
+}
+.palette2{
+  background-color:#CFE1B9;
+}
+.palette3{
+  background-color:#b5c99a;
+}
+.palette4{
+  background-color:#97a97c;
+}
+.palette5{
+  background-color:#87986a;
+}
+.palette6{
+  background-color:#718355;
+}
