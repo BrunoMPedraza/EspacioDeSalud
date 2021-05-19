@@ -16,6 +16,25 @@ body {
   transition-property: opacity;
 }
 
+.row {
+  margin: 0!important;
+}
+
+.carousel-item {
+  height: 65vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.custom-carousel1{
+  position:relative;
+  bottom:15vmin;
+  right:5vw;
+  max-height:45vh;
+  overflow-y:scroll;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
 .navbar-collapse{
   z-index:10;
 }
