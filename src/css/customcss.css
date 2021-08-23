@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 html {
   scroll-behavior: smooth !important;
 }
@@ -17,11 +16,11 @@ body {
 }
 
 .row {
-  margin: 0!important;
+  margin: 0 !important;
 }
 
-.jumbotron{
-  margin: 0!important;
+.jumbotron {
+  margin: 0 !important;
 }
 
 .carousel-item {
@@ -30,39 +29,63 @@ body {
   background-size: cover;
 }
 
-.custom-carousel1{
+.custom-carousel1 {
+  position: relative;
+  bottom: 15vmin;
+  right: 5vw;
+  max-height: 45vh;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-indicators li {
+  visibility: hidden;
+}
+.navbar-collapse {
+  z-index: 10;
+}
+
+.indextop {
+  z-index: 999;
+}
+
+.feetinteractive {
+  top:0;
+  left:0;
+  background-repeat: no-repeat;
   position:relative;
-  bottom:15vmin;
-  right:5vw;
-  max-height:45vh;
-  overflow-y:scroll;
-  background-color:rgba(0, 0, 0, 0.5);
-}
-.carousel-indicators li { visibility: hidden; }
-.navbar-collapse{
-  z-index:10;
 }
 
-.space{
-  width:100vw;
-  height:15vh;
+
+.liver{
+  position:absolute;
+  width:50px;
+  height:50px;
+  top:0;
+  right:0;
+  background-color:green;
 }
 
-.palette1{
-  background-color:#E9F5DB;
+.space {
+  width: 100vw;
+  height: 15vh;
 }
-.palette2{
-  background-color:#CFE1B9;
+
+.palette1 {
+  background-color: #34421E;
 }
-.palette3{
-  background-color:#b5c99a;
+.palette2 {
+  background-color: #f1f1ef;
 }
-.palette4{
-  background-color:#97a97c;
+
+.palette3 {
+  background-color: #8ec23c;
 }
-.palette5{
-  background-color:#87986a;
+.palette4 {
+  background-color: #c19434;
 }
-.palette6{
-  background-color:#718355;
+.palette5 {
+  background-color: #87986a;
+}
+.palette6 {
+  background-color: #718355;
 }
